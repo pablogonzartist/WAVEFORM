@@ -1,0 +1,236 @@
+@import url("hover-min.css");
+
+html {
+  height: 100%;
+  max-width: 100%;
+  background: black;
+  /* background: radial-gradient(circle,#ffd3d3 4%,#000000 20%, #000000 40%, #000000 60%, #000000 80%, #000000 99%);
+  background-size: 200% 200%;
+  animation: change 60s ease-in-out infinite; */
+  cursor:url("http://www.zingerbug.com/cursors/cursors/3d_note_blue.gif"),auto;
+  }
+
+  
+
+  @font-face {
+    font-family: 'Suisse Intl';
+    src: url('SuisseIntl-Light.woff2') format('woff2'),
+        url('SuisseIntl-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+h1 { color: rgb(255, 255, 255);
+    font-size: 2em;
+font-family: 'Suisse Intl';
+font-weight: lighter;
+}
+
+h2 { color: rgb(255, 255, 255);
+  font-size: 2em;
+font-family: expositregular; 
+mix-blend-mode: overlay;
+}
+
+
+.title {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+    @import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+body {
+    margin: 0px;
+}
+
+/* button */
+
+/* CSS */
+.button-59 {
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: "Suisse Intl";
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 1em;
+}
+
+.button-59:focus {
+  color: #171e29;
+}
+
+.button-59:hover {
+  border-color: rgb(255, 200, 0);
+  color: rgb(255, 200, 0);
+  fill: rgb(255, 200, 0);
+}
+
+.button-59:active {
+  border-color: rgb(255, 200, 0);
+  color: rgb(255, 200, 0);
+  fill: rgb(255, 200, 0);
+}
+
+.spacing {
+display: flex;
+justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}
+/*button ends */
+
+#titles {
+    position: absolute;
+    margin-top: 10em;
+    width: 100vw;
+    height: 80pt;
+    top: 0;
+    bottom: 0;
+
+    filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    margin-top: -2em;
+    font-family: 'Suisse Intl';
+    font-weight:lighter;
+    font-size: 50pt;
+
+    text-align: center;
+
+    user-select: none;
+    color: white;
+}
+
+.glide {
+    margin-top: -2em;
+}
+/* .shuffle {
+    display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: -550px;
+z-index: 1;
+} */
+/* 
+svg { 
+    width: 100px;
+}
+
+svg:hover {
+  fill: black;
+  -webkit-filter: drop-shadow( 4px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+
+} */
+
+/* .glide__slides{
+ 
+} */
+
+
+  
+  /* pule shrink 
+  @-webkit-keyframes hvr-pulse-shrink {
+    to {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  @keyframes hvr-pulse-shrink {
+    to {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  } */
+  /* .hvr-pulse-shrink {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active {
+    -webkit-animation-name: hvr-pulse-shrink;
+    animation-name: hvr-pulse-shrink;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  } */
+
+
+
+/* @media only screen and (max-width: 50em) {
+  html {
+    transform: scale(.80);
+    max-width: fit-content;
+    height: fit-content;
+    margin-top: -13em;
+  
+  }
+
+  body {
+    max-width: fit-content;
+    margin-bottom: 100px;
+  }
+
+  .container {
+    height: 1000px;
+    max-width: 400px;
+  }
+
+  .shuffle {
+    margin-top: 470px;
+  }
+
+  .glide__arrows {
+    margin: -30em;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+  }
+ 
+}
+   */

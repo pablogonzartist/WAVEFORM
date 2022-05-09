@@ -1,0 +1,313 @@
+html {
+height: 100%;
+max-width: 100%;
+/*background: radial-gradient(circle,#ffffff 4%,#173CF4 20%, #ffffff 40%, #EB4525 60%, #ffffff 80%, #FF902D 99%);*/
+background: radial-gradient(circle, #ffffff 2%, #414046 98%);
+background-size: 500% 500%;
+animation: change 60s ease-in-out infinite;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+/*fonts*/
+
+@font-face {
+    font-family: 'Phase-A';
+    src: url('fonts/A-0-100-100.woff2') format('woff2'),
+        url('fonts/A-0-100-100.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: url('fonts/Stratos-Light.woff2') format('woff2'),
+        url('fonts/Stratos-Light.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+.lefttitle h1{
+font-family: Phase-A;
+white-space: nowrap;
+color: white;
+font-size: 6em;
+transform: rotate(-90deg);
+position: absolute;
+bottom: 0;
+margin-left: -4.5em;
+}
+
+/* outer container */
+.outercontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+
+
+}
+
+/*introduction*/
+.introduction {
+    display: flex;
+    justify-content: center;
+    font-family: Stratos;
+    color: white;
+    margin-left: 25em;
+    margin-right: 25em;
+   
+}
+
+
+/* left title */
+.lefttitle { 
+width: 100px;
+position: relative;
+}
+
+/*inner coontainer*/
+.innercontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    width: 100%;
+}
+
+/*rows*/
+.rowone {
+    margin-left: 10em;
+}
+.rowtwo {
+    margin-left: 25em;
+}
+.rowthree {
+    margin-left: 45em;
+}
+.rowfour {
+    margin-left: 10em;
+}
+.rowsix {
+    margin-left: 30em;
+}
+.rowseven {
+    margin-left: 5em;
+}
+.roweight {
+    margin-left: 25em;
+}
+.rownine {
+    margin-left: 50em;
+}
+.rowten {
+    margin-left: 30em;
+}
+.roweleven {
+    margin-left: 5em;
+}
+.rowtwelve {
+    margin-left: 13em;
+}
+.rowthirteen {
+    margin-left: 30em;
+}
+.rowfourteen {
+    margin-left: 50em;
+}
+.rowfifteen {
+    margin-left: 8em;
+}
+.rowsixteen {
+    margin-left: 36em;
+}
+.rowseventeen {
+    margin-left: 10em;
+}
+.roweighteen {
+    margin-left: 15em;
+}
+.rownineteen {
+    margin-left: 40em;
+}
+.rowtwenty {
+    margin-left: 5em;
+}
+.rowtwentyone {
+    margin-left: 55em;
+}
+.rowtwentytwo {
+    margin-left: 30em;
+}
+.rowtwentythree {
+    margin-left: 5em;
+}
+.rowtwentyfour {
+    margin-left: 50em;
+}
+
+
+
+  /*ellipse */
+.ellipse {
+    width: 271px;
+    height: 271px;
+   
+    margin: .15em;
+    
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    /*text*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Phase-A;
+    font-size: 4em;
+    color: white;
+    }
+
+.ellipse:hover {
+    animation: fadeOutUp;
+    animation-duration: 2s;
+    
+}
+
+
+
+   
+    
+/*link*/
+
+a:link {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* search bar inspired by: https://codepen.io/menelaosly/pen/rZddyb */ 
+/*SEARCH BAR BEGINS HERE */
+.searchbar {
+    display: flex;
+    margin: 4em;
+}
+
+form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+   
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 3px solid white;
+    padding: 5px;
+}
+
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover{
+    width: 200px;
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+    background-color: rgba(217, 50, 75, 0.1);
+    color: white;
+}
+
+form:hover .fa{
+    background: #d73838;
+    color: white;
+}
+
+/*SEARCH BAR ENDS HERE */
+
+
+/* animation */
+@keyframes change {
+    0% {
+    background-position: 0 50%;
+  }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+  
+      } }
+
+
+
+      @media only screen and (max-width: 50em) {
+      
+    
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        .searchbar {
+            margin-left: 2.5em;
+        }
+       
+       .introduction {
+           margin: 10em;
+           margin-left: -2.5em;
+           margin-right: 0em;
+          transform: scale(.75);
+           margin-top: -6em;
+         
+    
+       }
+        
+        .outercontainer {
+            transform: scale(.3);
+            margin-left: -13em;
+            margin-top: -29em;
+        }
+    }

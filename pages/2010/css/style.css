@@ -1,0 +1,132 @@
+html {
+    background-color: #EB4525;
+    height: 100%;
+}
+
+/*fonts*/
+
+@font-face {
+    font-family: 'Phase-A';
+    src: url('../fonts/A-0-100-100.woff2') format('woff2'),
+        url('../fonts/A-0-100-100.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stratos';
+    src: url('../../2019/fonts/Stratos-Light.woff2') format('woff2'),
+        url('../../2019/fonts/Stratos-Light.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+header { 
+    display: flex;
+    width: 100%
+}
+
+.backbutton {
+    
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: .15em;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-family: Phase-A;
+    font-size: 3em;
+    color: white;
+}
+
+.backbutton:hover {
+    
+        animation: bounceOut;
+        animation-duration: 2s;
+        
+}
+/*link*/
+
+a:link {
+    text-decoration: none;
+}
+
+
+.songtitle {
+display: flex;
+justify-content: center;
+text-align: center;
+align-self: center;
+margin-left: 350px;
+margin-right: auto;
+font-family: Stratos;
+font-style: italic;
+font-size: 2em;
+color: white;
+
+}
+
+.year {
+    display: flex;
+    font-family: Phase-A;
+    color: white;
+    font-size: 5em;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+}
+
+.musiccontainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+
+}
+
+@media only screen and (max-width: 50em) {
+      
+    header {
+        transform:scale(.5);
+        margin-left: -5em;
+        
+    }
+    
+    .songtitle {
+        margin-left: 3em;
+    }
+    
+    .musiccontainer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .year {
+        display: flex;
+        font-family: Phase-A;
+        color: white;
+        font-size: 5em;
+        text-orientation: upright;
+        writing-mode:horizontal-tb;
+        text-align: center;
+        justify-self: center;
+        margin-top: -1.5em;
+        margin-left: .5em;
+    }
+    
+    .album {
+        transform: scale(.5);
+        margin-left: -3.5em;
+        margin-top: -10em;
+    
+    }
+    
+    .news {
+        transform: scale(.5);
+        margin-left: -3.5em;
+        margin-top: -7em;
+    
+    }
+    }
