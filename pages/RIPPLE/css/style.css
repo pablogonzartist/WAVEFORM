@@ -140,6 +140,17 @@ justify-content: center;
 .glide {
     margin-top: -2em;
 }
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 /* .shuffle {
     display: flex;
 align-items: center;
