@@ -4,7 +4,7 @@
 		type: 'carousel',
 		perView: 3,
     peek: -window.innerWidth* .6,
-    gap: 30,
+    gap: 80,
     
 
 	}
