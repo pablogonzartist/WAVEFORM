@@ -63,6 +63,7 @@ function preload() {
   songs.push("songlist/godschariots.mp3");
   songs.push("songlist/belowtheclavicle.mp3");
   songs.push("songlist/whenyoudie.mp3");
+  songs.push("songlist/elysianheights.mp3");
   let randomChooser = Math.floor(random(0,songs.length));
   song = loadSound(songs[randomChooser]);
 }
