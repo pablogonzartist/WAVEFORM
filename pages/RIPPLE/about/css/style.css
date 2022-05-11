@@ -7,8 +7,8 @@ html {
 
 @font-face {
     font-family: 'Suisse Intl';
-    src: url('SuisseIntl-Light.woff2') format('woff2'),
-        url('SuisseIntl-Light.woff') format('woff');
+    src: url('fonts/SuisseIntl-Light.woff2') format('woff2'),
+        url('fonts/SuisseIntl-Light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
