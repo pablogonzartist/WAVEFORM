@@ -15,14 +15,13 @@ html {
 }
 
 @font-face {
-    font-family: 'Stratos';
-    src: url('../../2020/fonts/Stratos-Light.woff2') format('woff2'),
-        url('../../2020/fonts/Stratos-Light.woff') format('woff');
-    font-weight: 100;
+    font-family: 'Suisse Intl';
+    src: url('../fonts/SuisseIntl-Light.woff2') format('woff2'),
+        url('../fonts/SuisseIntl-Light.woff2') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-
 .spacingbox {
     justify-content: center;
     align-content: center;
