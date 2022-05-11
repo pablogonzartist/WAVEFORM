@@ -9,7 +9,7 @@ let shapeColor;
 let bgColor;
 let songs = [];
 
-var bgs = ['#08179F', '#003686', '#08609F', '#6597BB', '#08969F', '#089F7B', '#2FA766', '#7EB697', '#96D15A', '#EDFF1A', '#FFBF1A', '#FF6C1A', '#D14204', '#D94D4D', '#E32020', '#B91919','#E8317E', '#E36198', '#DD94DA', '#DB54D5', '#7723FF', '#A46CFF', '#0F0F30', '#3D0A0A', '#FFFFFF', '#000000', '#101F27', '#FF3153', '#0D1244', '#FFFFFF', '#BDFF00', '#34033D', '#031A3D']
+var bgs = ['#08179F', '#003686', '#08609F', '#6597BB', '#08969F', '#089F7B', '#2FA766', '#7EB697', '#96D15A', '#EDFF1A', '#FFBF1A', '#FF6C1A', '#D14204', '#D94D4D', '#E32020', '#B91919','#E8317E', '#E36198', '#DD94DA', '#DB54D5', '#7723FF', '#A46CFF', '#0F0F30', '#30A', '#FFFFFF', '#000000', '#101F27', '#FF3153', '#0D1244', '#FFFFFF', '#BDFF00', '#34033D', '#031A3D']
 var colors1 = ['#DBFF00', '#EED70C', '#EE0C5A', '#FFFFFF', '#E9EE0C', '#9B57DF', '#5786DF', '#FFFFFF', '#FFA030', '#EC3636', '#FFFFFF', '#CCFF00', '#FFFFFF', '#FFE600', '#FFFFFF', '#FFFFFF', '#AEE7FF', '#FFFFFF', '#672AA4', '#FFFFFF', '#00E0FF', '#FFFFFF', '#FFFFFF', '#FFFFFF', '#000000', '#DBFF00', '#00E0FF', '#31FFF5', '#3143FF', '#EC3636', '#FFC700', '#7000FF', '#0266FD']
 var colors2 = ['#DF1B1B', '#B53D8E', '#800B5A', '#B74190', '#A51E1E', '#140B80', '#0B214B', '#0B4B44', '#C13E8D', '#3963D1', '#3C66D2', '#000E8F', '#3FBAFF', '#1B52DF', '#FFB800', '#000000', '#0073FB', '#0065DC', '#000000','#00E0FF', '#DBFF00', '#FFBF1A', '#FF5757', '#FFD057', '#FF0000', '#FF5757','#00E', '#FFB800', '#FF005B', '#000000', '#8F00FF', '#FFF', '#DBFF00']
 
@@ -40,6 +40,20 @@ function preload() {
   songs.push("songlist/thevoyager.mp3");
   songs.push("songlist/pu.mp3");
   songs.push("songlist/cayo.mp3");
+  songs.push("songlist/silk.mp3");
+  songs.push("songlist/labryinth.mp3");
+  songs.push("songlist/camargue.mp3");
+  songs.push("songlist/comedowntous.mp3");
+  songs.push("songlist/untilthesearunsdry.mp3");
+  songs.push("songlist/djmajorlife.mp3");
+  songs.push("songlist/forever.mp3");
+  songs.push("songlist/espiritse.mp3");
+  songs.push("songlist/whatsgood.mp3");
+  songs.push("songlist/gravity.mp3");
+  songs.push("songlist/company.mp3");
+  songs.push("songlist/collapsestories.mp3");
+  songs.push("songlist/faint.mp3");
+  songs.push("songlist/flashing.mp3");
   let randomChooser = Math.floor(random(0,songs.length));
   song = loadSound(songs[randomChooser]);
 }
