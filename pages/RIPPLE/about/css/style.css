@@ -1,0 +1,128 @@
+html {
+    background-color: #000000;
+    height: 100%;
+}
+
+/*fonts*/
+
+@font-face {
+    font-family: 'Suisse Intl';
+    src: url('SuisseIntl-Light.woff2') format('woff2'),
+        url('SuisseIntl-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+h1 { color: rgb(255, 255, 255);
+    font-size: 2em;
+font-family: 'Suisse Intl';
+font-weight: lighter;
+}
+
+p { color: rgb(255, 255, 255);
+    font-size: 1em;
+font-family: 'Suisse Intl';
+font-weight: lighter;
+}
+
+
+
+.spacingbox {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.video {
+    margin-left: 24em;
+    margin-top: -5em;
+}
+.completegallery {
+    margin-left: 10em;
+}
+
+header { 
+    display: flex;
+    width: 100%
+}
+
+/* CSS */
+.button-59 {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: "Suisse Intl";
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 1em;
+  }
+
+  a:visited {
+      color: white;
+  }
+  
+  .button-59:focus {
+  
+    color:white;
+  }
+  
+  .button-59:hover {
+    border-color: rgb(255, 200, 0);
+    color: rgb(255, 200, 0);
+    fill: rgb(255, 200, 0);
+  }
+  
+  .button-59:active {
+    border-color: rgb(255, 200, 0);
+    color: rgb(255, 200, 0);
+    fill: rgb(255, 200, 0);
+  }
+  
+  /* .musiccontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+   */
+  @media (min-width: 768px) {
+    .button-59 {
+      min-width: 170px;
+    }
+  }
+  /*button ends */
+/*link*/
+
+a:link {
+    text-decoration: none;
+}
+
+.about1 {
+    color: white;
+
+}
+
+.spacing {
+display: flex;
+align-items: center;
+justify-content: center;
+}
