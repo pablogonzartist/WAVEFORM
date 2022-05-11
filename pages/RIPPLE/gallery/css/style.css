@@ -23,6 +23,10 @@ html {
     font-display: swap;
 }
 
+.completegallery {
+    margin-left: 10em;
+}
+
 header { 
     display: flex;
     width: 100%
@@ -72,11 +76,12 @@ header {
     fill: rgb(255, 200, 0);
   }
   
-  .spacing {
+  /* .musiccontainer {
   display: flex;
   justify-content: center;
+  align-items: center;
   }
-  
+   */
   @media (min-width: 768px) {
     .button-59 {
       min-width: 170px;
@@ -87,20 +92,6 @@ header {
 
 a:link {
     text-decoration: none;
-}
-
-.songtitle {
-display: flex;
-justify-content: center;
-text-align: center;
-align-self: center;
-margin-left: 280px;
-margin-right: auto;
-font-family: Stratos;
-font-style: italic;
-font-size: 2em;
-color: white;
-
 }
 
 .year {
@@ -132,10 +123,6 @@ header {
     margin-left: 4em;
 }
 
-.musiccontainer {
-    display: flex;
-    flex-direction: column;
-}
 /* 
 .year {
     display: flex;
@@ -150,9 +137,9 @@ header {
 } */
 
 .album {
-    transform: scale(.5);
-    margin-left: -4em;
-    margin-top: -10em;
+    transform: scale(0);
+   
+    margin-top: -1em;
 
 }
 
@@ -162,4 +149,6 @@ header {
     margin-top: -7em;
 
 }
+
+
 }
