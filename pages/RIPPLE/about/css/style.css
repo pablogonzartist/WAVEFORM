@@ -125,4 +125,6 @@ a:link {
 display: flex;
 align-items: center;
 justify-content: center;
+margin-left: 30em;;
+margin-right: 30em;
 }
