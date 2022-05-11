@@ -23,6 +23,16 @@ html {
     font-display: swap;
 }
 
+.spacingbox {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.video {
+    margin-left: 24em;
+    margin-top: -5em;
+}
 .completegallery {
     margin-left: 10em;
 }
@@ -164,3 +174,5 @@ a:visited {
 color: white;
   
   }
+
+}
